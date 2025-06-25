@@ -43,6 +43,7 @@ Here, we introduce some definitions and notations related to transfer learning t
 The notations that have been used throughout the study are defined as follows.
 
 E = total number of storm events
+
 N = total number of street segments in Norfolk, Virginia
 
 S = total number of flood-prone streets in Norfolk, Virginia; mathematically: S ⊆ N
