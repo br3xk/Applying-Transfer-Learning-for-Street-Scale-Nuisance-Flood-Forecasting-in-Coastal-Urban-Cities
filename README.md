@@ -34,7 +34,7 @@ Here, we introduce some definitions and notations related to transfer learning t
 - The Local model is built on the target streets from scratch.
 - The Transfer model is the Base model that is transferred to the target domain. There are two types:
   - wo TL model = test the Base model on the target streets, with no transfer learning weight adjustments, and
-  - w TL model = re-train the Base model on the target streets, with different transfer learning weight adjustment strategies. 
+  - w TL model = re-train the Base model on the target streets, with different transfer learning weight adjustment strategies, as stated above – TL-a, TL-b, TL-c, and TL-d. 
 
 The notations that have been used throughout the study are defined as follows.
 
