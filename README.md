@@ -26,6 +26,7 @@ The TL techniques were adopted from K. Ma et al. (2021) and modified to suit our
 Here, Fig. 1a shows the architecture of the LSTM Model and Fig. 1b shows TL techniques implemented in Keras Python. In Keras LSTM, the weights of input and hidden state are split and handled separately as input weight (W) and recurrent weight (U), respectively, whereas the bias term (B) is shared by both input and hidden state. The output dense linear layer doesn’t have any hidden states, so it has no recurrent weights; rather, it has only output weights (W) and bias (B). 
 
 ![image](https://github.com/user-attachments/assets/96f0f73a-edd0-41db-aa20-0be30901755a)
+
 Fig. 1. (a) Architecture of the LSTM model, x denotes the input features and y denotes the target features and (b) Architecture of the LSTM model with TL techniques implemented in Keras Python (techniques were modified from K. Ma et al. (2021), which had different input layer and was implemented in PyTorch).
 
 Here, we introduce some definitions and notations related to transfer learning that are used throughout the paper. 
